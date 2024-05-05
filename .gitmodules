@@ -1,0 +1,3 @@
+[submodule "02-component-design"]
+	path = 02-component-design
+	url = https://github.com/andepraveenofficial/LLD.git
