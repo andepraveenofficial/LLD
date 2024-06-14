@@ -15,4 +15,5 @@ LLD : Low Level Design
 * Realtime Updates
 * Live-Stream Chat
 * Autocomplete Searchbar
+* Global Store
 
