@@ -1,2 +1,0 @@
-# Multi Language Support
-
