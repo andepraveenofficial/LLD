@@ -14,7 +14,7 @@
 ### Example
 * google has shifted from pagination to infinite scroll
 
-### Types of Paginations
+### Types of pagination's
 * Frontend Pagination
 * Server-Side Pagination
 
@@ -23,7 +23,7 @@
 * Keep the data in redux store
 * Here, we can change the page, we don't required API call.
 * If you think about user experience, The Page change is faster.
-* Only one API call
+* Only one API call enough.
 * In frontend side we need to write more logic (code).
 * Initial load time of the page is high.
 * Browser will go slow (fetching millions of data is not good)
@@ -46,11 +46,17 @@
 * It is faster than offset pagination
 
 ### Normal Pagination
-When items deleted or added new items then Pages data will vary when to
+* When items deleted or added new items then Pages data will vary when to
 previous Page or Next Page.
 
 ### Strategy
-*   Understand the API
-*   We can avoid the over fetching data, we use select.
+*  Understand the API
+*  We can avoid the over fetching data, we use select.
     `fetch('https://dummyjson.com/products?limit=10&skip=10&select=title,price')`
-*  We can avoid extra information.
+* We can avoid extra information.
+
+### Installation
+* `npm install`
+
+### Start the Application
+* `npm start`

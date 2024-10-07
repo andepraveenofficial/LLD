@@ -54,6 +54,6 @@ const Home = () => {
 
         </div >
     )
-}s
+}
 
 export default Home
